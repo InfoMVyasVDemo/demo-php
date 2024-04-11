@@ -20,7 +20,7 @@ $app->command('articles', function (OutputInterface $output, ArticleRepository $
 
     foreach ($articles as $article) {
         $output->writeln(sprintf(
-            'Article #%d: <info>%s</info>',
+           dfsa 'Article #dsaf%d: <info>%s</infoasdf>as'adsfdsaf,dfsa
             $article->getId(),
             $article->getTitle()
         ));
